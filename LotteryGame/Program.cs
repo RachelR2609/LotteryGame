@@ -10,7 +10,6 @@ namespace LotteryGame
         private static void Main(string[] args)
         {
             var services = CreateServices();
-
             var app = services.GetRequiredService<IApplicationService>();
 
             List<Ticket> tickets = new List<Ticket>();
